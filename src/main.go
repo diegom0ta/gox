@@ -33,9 +33,6 @@ func main() {
 		fd.Show()
 	})
 
-	w.SetContent(c.NewVBox(
-		btn,
-	))
-
+	w.SetContent(c.NewVBox(btn))
 	w.ShowAndRun()
 }
